@@ -1,0 +1,9 @@
+bin/
+obj/
+.vscode/
+.vs/
+*.db
+*.db-shm
+*.db-wal
+*.csv
+*.log
