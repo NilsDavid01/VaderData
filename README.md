@@ -16,17 +16,14 @@ En applikation för analys av väderdata med Entity Framework Core.
 - Beräkning av mögelrisk
 - Meteorologiska säsongsberäkningar
 
-## Kommandon
+## Kommandon för att köra applikationen
 
 ```bash
-# Bygg projekt
+# Hämta applikationen
+git clone https://github.com/NilsDavid01/VaderData.git
+
+# Bygg applikationen
 dotnet build
 
-# Kör applikation
+# Kör applikationen
 dotnet run --project VaderData.UI
-
-# Skapa migration
-dotnet ef migrations add InitialCreate --project VaderData.DataAccess
-
-# Uppdatera databas
-dotnet ef database update --project VaderData.DataAccess
