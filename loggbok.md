@@ -16,7 +16,7 @@ Utvecklade MoldRiskCalculator som använder formeln (RH-80)*(T/15) när RH > 80%
 
 # Dag 5
 
-Byggde ett meny-baserat konsolgränssnitt med switch-sats för användarinteraktion. Implementerade dependency injection med ServiceCollection för loose coupling. Använde IWeatherDataService interface för att abstrahera dataåtkomst. DisplayDataCommand-klassen skapades för att separera visningslogik. Denna design gör det enkelt att byta ut gränssnitt eller lägga till nya kommandon.
+Byggde ett meny-baserat konsolgränssnitt med switch-sats för användarinteraktion. Implementerade dependency injection med ServiceCollection för loose coupling. Använde IWeatherDataService interface för att abstrahera dataåtkomst. DisplayDataCommand-klassen skapades för att separera visningslogik. Denna design gör det enkelt att byta ut gränssnitt eller lägga till nya kommandon. Implementerade en pageringslösning som gör at jag kan bläddra igenom hela databasen. 
 
 # Dag 6
 
