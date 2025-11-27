@@ -32,7 +32,7 @@ Testade alla analysfunktioner med riktig data. Temperatursortering använder Ord
 
 # Dag 9
 
-Implementerade automatisk databasskapelse med EnsureCreatedAsync(). La till progress reporting under CSV-läsning för användarvänlighet. Skapade en flexibel sökvägshanterare som fungerar både under utveckling och efter publicering. Använde Path.Combine för cross-platform sökvägshantering. Dessa features gör applikationen användarvänlig och pålitlig.
+Implementerade automatisk databasskapelse med EnsureCreatedAsync(). La till progress reporting under CSV-läsning för användarvänlighet. Skapade en flexibel sökvägshanterare som fungerar både under utveckling och efter publicering. Använde Path.Combine för cross-platform sökvägshantering. Dessa funktioner gör applikationen användarvänlig och pålitlig.
 
 # Dag 10
 
