@@ -36,4 +36,4 @@ Implementerade automatisk databasskapelse med EnsureCreatedAsync(). La till prog
 
 # Dag 10
 
-Projektet uppfyller alla krav: Entity Framework Code First, CSV-läsning med validering, kompletta analysalgoritmer. Valet av 3-lagersarkitektur har visat sig lyckat för underhållbarhet. Algoritmerna för mögelrisk och säsongsberäkning ger meningsfulla resultat. Datastrukturerna hanterar effektivt stora datamängder. Applikationen är redo för produktion och vidareutveckling.
+Projektet uppfyller alla krav: Entity Framework Code First, CSV-läsning med validering, kompletta analysalgoritmer. Valet av 3-lagersarkitektur har visat sig lyckat för underhållbarhet. Algoritmerna för mögelrisk och säsongsberäkning ger meningsfulla resultat. Datastrukturerna hanterar effektivt stora datamängder. Applikationen är klar. 
