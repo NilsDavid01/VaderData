@@ -366,8 +366,8 @@ namespace VaderData.UI
             
             // Presentera resultat
             Console.WriteLine($"\n📅 Säsongsberäkning för {location}:");
-            Console.WriteLine($"🍂 Höst start: {(result.AutumnStart?.ToString("yyyy-MM-dd") ?? "Ej hittad")}");
-            Console.WriteLine($"❄️ Vinter start: {(result.WinterStart?.ToString("yyyy-MM-dd") ?? "Ej hittad")}");
+            Console.WriteLine($"🍂 Höst start: {result.AutumnStart?.ToString("yyyy-MM-dd") ?? "Kunde inte beräknas"}");
+            Console.WriteLine($"❄️ Vinter start: {(result.WinterStart?.ToString("yyyy-MM-dd") ?? "För tidigt för vinter")}");
             Console.WriteLine($"💡 {result.Message}");
             Console.WriteLine("\nTryck på valfri tangent för att fortsätta...");
             Console.ReadKey();
