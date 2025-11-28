@@ -22,6 +22,9 @@ En applikation för analys av väderdata med Entity Framework Core.
 # Hämta applikationen
 git clone https://github.com/NilsDavid01/VaderData.git
 
+# Navigera till projektmappen
+cd VaderData/
+
 # Bygg applikationen
 dotnet build
 
